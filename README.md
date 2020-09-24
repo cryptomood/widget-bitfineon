@@ -26,3 +26,9 @@ document.getElementById("pepe").setIsWidgetOpen(true)
 document.getElementById("pepe").getIsWidgetOpen()
 > true
 ```
+
+## CDN Link
+The bundle auto-deploys to our CDN, [here](https://cdn.jsdelivr.net/gh/cryptomood/widget-bitfineon@latest/index.js).
+
+To force refresh the bundle in the CDN (e.g. in case of a new deploy), click [here](https://purge.jsdelivr.net/gh/cryptomood/widget-bitfineon@latest/index.js).
+The refresh takes a few minutes at the very least.
